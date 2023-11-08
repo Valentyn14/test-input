@@ -1,0 +1,107 @@
+/* ...............input.................. */
+/* .main {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 12px 0;
+  text-align: center;
+  background: rgb(191, 191, 191);
+}
+
+.section {
+  width: 80%;
+  margin: 8px auto;
+  padding: 4px;
+  background: ghostwhite;
+}
+
+button {
+  cursor: pointer;
+}
+
+.button:hover {
+  border-radius: 2px;
+  background: rgb(255, 113, 113);
+}
+
+.cont {
+  width: 80%;
+  height: 20px;
+  margin: 12px auto;
+  background: #fff;
+} */
+
+
+
+/* ...................акардеон................. */
+
+.bayan {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px 100px;
+
+  background: #b3b3b3;
+  font-weight: 600;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.bayan_item {
+  margin: 20px 0;
+}
+
+.bayan_label {
+  display: block;
+
+  font-size: 20px;
+  color: blue;
+  cursor: pointer;
+}
+
+.bayan_label:hover {
+  color: black;
+}
+
+.bayan_input {
+  width: 0;
+  height: 0;
+  position: absolute;
+  appearance: none;
+}
+
+.bayan_input:checked + .bayan_content,
+.bayan_input:hover + .bayan_content,
+.bayan_content:hover + .bayan_content {
+  display: block;
+}
+
+.bayan_content {
+  display: none;
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.content_1 {
+  background: #83fba1;
+}
+
+.content_2 {
+  background: #5729ff;
+}
+
+.content_3 {
+  background: #e1fb6f;
+}
+
+.content_4 {
+  background: #8be6ff;
+}
+
+
+
