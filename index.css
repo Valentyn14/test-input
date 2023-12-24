@@ -89,6 +89,8 @@ button {
 
 .content_1 {
   background: #83fba1;
+  width: 200px;
+  height: 40px;
 }
 
 .content_2 {
@@ -104,4 +106,8 @@ button {
 }
 
 
+/* test images */
 
+.img-test {
+  fill: #83fba1;
+}

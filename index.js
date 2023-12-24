@@ -1,3 +1,4 @@
+// 'use strict';
 // ................input.................//
 
 
@@ -46,4 +47,22 @@
 //   document.querySelector('.content_4').innerHTML = result;
 // })
 
+// for(let i = 0; i < 3; i++) {
+//   setTimeout(function() {
+//      console.log(i);
+//   },1000);
+// }
+// console.log('The loop is done!');
 
+// for (var i = 1; i < 6; i++) {
+//   function timer() {
+//     // create a unique function (scope) each time
+//     var k = i; // save i to the variable k which
+//     setTimeout(() => {
+//       console.log(k);
+//     }, 1000);
+//   }
+//   timer();
+// }
+
+// ////////////////////////////////////////////////////
